@@ -1,0 +1,6 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - flake8
+  - pytest
