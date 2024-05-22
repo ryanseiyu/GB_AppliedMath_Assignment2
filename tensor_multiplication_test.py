@@ -84,7 +84,7 @@ def test_two_neurons_with_a_batch_of_inputs():
 # To run the tests, run this file from the command line with `python tensor_multiplication_test.py` and uncomment the lines below
 # The automatic grading uses the command `pytest tensor_multiplication_test.py` to run the tests, 
 # you can do that (after installing pytest) to check your work before submitting.
-# But you may submit(commit and sync) as many times as you want. 
+# But you may submit(commit and sync) as many times as you want.
 
 if __name__ == "__main__":
     test_tensor_creation()

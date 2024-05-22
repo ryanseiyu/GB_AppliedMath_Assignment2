@@ -51,7 +51,7 @@ def calculate_matrix_prod_with_bias(X, W, b):
 def calculate_activation(sum_total):
     """
     Calculate a step function as an activation of the neuron.
-    Hint: use PyTorch `heaviside` function.
+    Hint: use PyTorch `heaviside` function. 
     """
     res = torch.heaviside(sum_total, torch.tensor(0.0))
     return res
